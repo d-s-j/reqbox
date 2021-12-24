@@ -1,5 +1,5 @@
 {
-  "name": "requestbin",
+  "name": "reqbox",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:ui": "rm -rf build && cd ../requestbin-frontend/ && npm run build --prod && cp -r build ../requestbin-backend"
+    "build:ui": "rm -rf build && cd ../reqbox-frontend/ && npm run build --prod && cp -r build ../reqbox-backend"
   },
   "author": "",
   "license": "ISC",
